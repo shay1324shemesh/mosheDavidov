@@ -1,0 +1,36 @@
+.mainExamples{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainExamples button{
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+    color: azure;
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+}
+.mainExamples h1{
+    color: white;
+    text-shadow: black 5px 2px 5px;
+    text-decoration: underline;
+}
+.buttonLayer{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(240, 248, 255, 0.792);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 50px;
+    box-shadow: black 5px 2px 150px;
+}
+.buttonLayer:hover{
+    background-color: rgba(85, 255, 0, 0.405);
+
+}

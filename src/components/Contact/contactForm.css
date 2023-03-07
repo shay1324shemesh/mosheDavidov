@@ -1,0 +1,32 @@
+.submitInput{
+    height: 50px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 20px;
+
+}
+.form{
+    width: 900px;
+}
+.emailInput{
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.nameInput{
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+form textarea{
+    font-size: 20px;
+}
+.formH1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-shadow: rgb(98, 72, 8) 5px 2px 5px;
+}

@@ -1,0 +1,109 @@
+.barberContainer{
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+.barberLine{
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.barberLine img {
+    width: 65%;
+    margin-bottom: 100px;
+}
+.barberP{
+    max-width: 50%;
+    font-size: 20px;
+}
+.mainBarberVideo{
+    text-align: center;
+    height: 700px;
+
+}
+.mainBarberVideo video{
+    display: block;
+    height: 700px;
+
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+}
+
+.mainBarberVideo .textDivBarber{
+    width: 300px;
+    padding: 20px;
+    margin-top: 225px;
+    display: inline-block;
+    border: 2px solid wheat;
+    border-radius: 5px;
+}
+.mainBarberVideo .textDivBarber h1{
+    color: rgb(49, 68, 94);
+    background-color: transparent;
+    text-shadow: goldenrod 2px 5px 5px;
+    padding: 10px 20px;
+
+}
+.textDivBarber{
+    color: rgb(200, 200, 200);
+    background-color:transparent;
+    text-shadow: goldenrod 2px 5px 5px;
+
+
+}
+
+.textDiv{
+    max-width: 40%;
+    font-size: 20px;
+}
+.barberDescription {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+max-width: 60%;
+font-size: 30px;
+}
+.barberBackground img{
+    border-radius: 55px;
+    width: 450px;
+    padding: 20px;
+}
+.barberDescription h1{
+    text-align: center;
+}
+.mainBarber{
+    display: inline-block;
+}
+.moveDiv{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+
+@media(max-width:829px) {
+    .mainBarber{
+        width: 100%;
+    }
+    .barberLine img {
+        width: 85%;
+        margin-bottom: 25px;
+    }
+    .moveDiv{
+        flex-direction: column-reverse;
+        height: 850px;
+    }
+    .barberContainer{
+        flex-direction: column;
+        height: 1500px;
+        text-align: center;
+        align-items: center;
+    }
+}

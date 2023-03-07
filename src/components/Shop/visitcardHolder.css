@@ -1,0 +1,36 @@
+.mainVisitCard{
+    height: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
+.firstH1{
+    color: white;
+    text-shadow: black 5px 5px 10px;
+    text-decoration: underline;
+    margin: 50px;
+    text-align: center;
+}
+.mainVisitCard .visitBut{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    margin: 50px;
+    color: white;
+    border: white 2px solid;
+    border-radius: 25px;
+    box-shadow: black 5px 5px 20px;
+    text-shadow: black 2px 2px 5px;
+    background-color: rgb(150, 150, 150);
+}
+.visitBut{
+    background: none;
+}
+.noneDiv{
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+}

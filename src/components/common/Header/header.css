@@ -1,0 +1,128 @@
+header {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    top: 0;
+    z-index: 99999;
+    position: sticky;
+
+  }
+  .container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 135px; */
+  }
+  /* .btn1{
+    color: rgb(153, 250, 112);
+    text-decoration: underline;
+    font-family: Varela Round;
+  }
+  .btn1:hover{
+    background-color: rgba(128, 128, 128, 0.868);
+  } */
+  .btn1 a{
+    color: rgb(153, 250, 112);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    text-decoration: underline;
+    font-family: Varela Round;
+  }
+  header img {
+    width: 170px;
+  }
+  header a {
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 500;
+  }
+  header span {
+    width: auto;
+    padding: 0px 6px;
+    background: #ff0000;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-right: 4px;
+    font-weight: 400;
+  }
+  header h4 {
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  header .toggle {
+    display: none;
+  }
+  .shay button{
+    border: none;
+  }
+  /* .hhll{
+    height: 100px;
+    width: 100%;
+    font-size: 25px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow: 1px 0 50px;
+    background-color: rgb(112, 112, 112);
+
+  } */
+  .shayApp button{
+    height: 100px;
+    width: 100%;
+    font-size: 25px;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    box-shadow: black 1px 0 50px;
+  }
+  @media(max-width: 829px) {
+    header {
+      padding: 0;
+      display: block;
+    }
+    .nav{
+      display: none;
+    }
+    header img {
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+    .shay button{
+      display: none;
+    }
+
+    /* header .nav .flex {
+      display: none;
+    } */
+
+    /* header .small {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #808080;
+      padding: 20px;
+    } */
+    /* header li a {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: rgb(255, 255, 255);
+    } */
+    header .toggle{
+      display: block;
+      margin-right: 25px;
+    }
+    header .toggle button{
+      height: 75px;
+      width: 75px;
+      background-color: grey;
+      border-radius: 15px;
+
+    }
+
+  }

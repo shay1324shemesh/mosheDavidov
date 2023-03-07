@@ -1,0 +1,14 @@
+.backgroundPriceList{
+    height: 1000px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.priceH1{
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: black 4px 4px 4px;
+}

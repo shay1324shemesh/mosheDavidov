@@ -1,0 +1,14 @@
+.controlMain{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.photosH1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 50px;
+}
