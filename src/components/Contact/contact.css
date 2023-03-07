@@ -28,8 +28,6 @@ form{
     align-items: center;
 }
 
-.chairImage{
-} 
 .contact h4{
     margin-bottom: 30px;
 }
@@ -64,6 +62,8 @@ form{
     }
     .chairImage{
         height: 600px;
+       width: 400px;
+
     }
     textarea{
         height: 250px;

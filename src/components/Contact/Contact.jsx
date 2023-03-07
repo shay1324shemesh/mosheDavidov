@@ -9,9 +9,8 @@ import ContactForm from './ContactForm'
 const Contact = () => {
   const chairStyles = {
     backgroundImage:`url(${chairImage})`,
-    heigth:'100%',
-    width:'500px',
     backgroundSize:'100% 100%',
+    width:'75%',
     backgroundRepeat:'no-repeat',
     marginTop:'50px',
   }
