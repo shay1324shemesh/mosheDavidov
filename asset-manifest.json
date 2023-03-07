@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mosheDavidov/static/css/main.414ca90f.css",
+    "main.css": "/mosheDavidov/static/css/main.372ce58b.css",
     "main.js": "/mosheDavidov/static/js/main.e6b2de35.js",
     "static/js/787.ec78c698.chunk.js": "/mosheDavidov/static/js/787.ec78c698.chunk.js",
     "static/media/video1.mp4": "/mosheDavidov/static/media/video1.0ab8a09edad90f6e2ffc.mp4",
@@ -50,12 +50,12 @@
     "static/media/photosLogo.png": "/mosheDavidov/static/media/photosLogo.4d23e05ee8f1881bcfcf.png",
     "static/media/videosLogo.png": "/mosheDavidov/static/media/videosLogo.c07fe566746d9d0d109c.png",
     "index.html": "/mosheDavidov/index.html",
-    "main.414ca90f.css.map": "/mosheDavidov/static/css/main.414ca90f.css.map",
+    "main.372ce58b.css.map": "/mosheDavidov/static/css/main.372ce58b.css.map",
     "main.e6b2de35.js.map": "/mosheDavidov/static/js/main.e6b2de35.js.map",
     "787.ec78c698.chunk.js.map": "/mosheDavidov/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.414ca90f.css",
+    "static/css/main.372ce58b.css",
     "static/js/main.e6b2de35.js"
   ]
 }
