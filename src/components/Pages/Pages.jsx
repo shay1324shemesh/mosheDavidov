@@ -42,6 +42,7 @@ const Pages = () => {
       <Footer/>
       <AccessibilityMenu/>
       <WhatsAppButton/>
+
     </Router>
     </>
   )

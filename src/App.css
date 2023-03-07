@@ -127,6 +127,7 @@ h4 {
   color: #fff;
   padding: 120px 0;
 }
+
 .back h1 {
   font-size: 40px;
   font-weight: 500;
@@ -134,22 +135,11 @@ h4 {
 .mb {
   margin-bottom: 80px;
 }
-
-/* @media screen and(max-width:768px){
-  .grid3,
-  .grid4,
-  .grid5 {
-    grid-template-columns: repeat(2,1fr);
-  }
-  .heading{
+/* @media(max-width:830px){
+  body{
     width: 100%;
   }
-  .container{
-    max-width: 90%;
-  }
-  .back,
-  .back::after,
-  .back img {
-    height: 30vh;
+  html{
+    position: fixed;
   }
 } */
