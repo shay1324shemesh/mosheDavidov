@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mosheDavidov/static/css/main.2fff02ce.css",
-    "main.js": "/mosheDavidov/static/js/main.244b2bc3.js",
+    "main.js": "/mosheDavidov/static/js/main.c272f905.js",
     "static/js/787.ec78c698.chunk.js": "/mosheDavidov/static/js/787.ec78c698.chunk.js",
     "static/media/video1.mp4": "/mosheDavidov/static/media/video1.0ab8a09edad90f6e2ffc.mp4",
     "static/media/ProjectName.mp4": "/mosheDavidov/static/media/ProjectName.1584b1ddf3a441cf03cb.mp4",
@@ -51,11 +51,11 @@
     "static/media/videosLogo.png": "/mosheDavidov/static/media/videosLogo.c07fe566746d9d0d109c.png",
     "index.html": "/mosheDavidov/index.html",
     "main.2fff02ce.css.map": "/mosheDavidov/static/css/main.2fff02ce.css.map",
-    "main.244b2bc3.js.map": "/mosheDavidov/static/js/main.244b2bc3.js.map",
+    "main.c272f905.js.map": "/mosheDavidov/static/js/main.c272f905.js.map",
     "787.ec78c698.chunk.js.map": "/mosheDavidov/static/js/787.ec78c698.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fff02ce.css",
-    "static/js/main.244b2bc3.js"
+    "static/js/main.c272f905.js"
   ]
 }
