@@ -33,7 +33,7 @@ function VisitCard({flipped , handleFlip}) {
   return (
     <div
       className={`visit-card ${flipped ? "flipped" : ""}`}
-      style={isDesktop ? { width: "400px", height: "250px", borderRadius: "50px" } 
+      style={isDesktop ? { width: "400px", height: "275px", borderRadius: "50px" } 
                        : { width: "500px", height: "300px", borderRadius: "50px"}
             }
 
