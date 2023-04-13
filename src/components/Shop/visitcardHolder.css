@@ -17,6 +17,7 @@
 .mainVisitCard .visitBut{
     height: 50px;
     width: 250px;
+
     font-size: 20px;
     margin: 50px;
     color: white;
@@ -29,8 +30,8 @@
 .visitBut{
     background: none;
 }
-.noneDiv{
-    height: 300px;
-    width: 500px;
+/* .noneDiv{
     margin-top: 50px;
-}
+
+    height: 300px;
+} */

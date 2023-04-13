@@ -11,11 +11,17 @@ const VisitCardHolder = () => {
   const[flag,setFlag]=useState(false)
   var changeFlag = () => {
     setFlag(!flag)
+    setFlipped(false)
   }
 
+  const [flipped, setFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setFlipped(!flipped);
+  };
 
   return (
-    <div className='mainVisitCard' style={{backgroundImage:`url(${blackBackgroundImage})`}}>
+    <div className='mainVisitCard' style={{backgroundImage:`url(${blackBackgroundImage})`,backgroundSize:"100% 100%"}}>
       <h1 className='firstH1'>לחצו על כרטיס הביקור למטה למידע נוסף</h1>
       <button className='visitBut' onClick={()=>changeFlag()}>Show/Hide - Visit Card</button>
       { flag ?  <Animated 
@@ -23,12 +29,12 @@ const VisitCardHolder = () => {
       animationOut="fadeOutLeftBig"
       isVisible={true}
       > 
-      <VisitCard/>
+      <VisitCard flipped={flipped} handleFlip={handleFlip}/>
       </Animated>  :
       <Animated 
       isVisible={false}
       > 
-      <VisitCard/>
+      <VisitCard flipped={flipped} handleFlip={handleFlip}/>
       </Animated> 
       }
 

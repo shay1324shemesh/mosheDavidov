@@ -7,7 +7,7 @@
     webkit-transition: all 1s cubic-bezier(0.52,-0.76,0.52,1.65);
 
   }
-  
+
   .visit-card.flipped {
     transform: perspective(1000px) rotateX(180deg);
   }
@@ -15,8 +15,8 @@
   .visit-card .front,
   .visit-card .back {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    /* height: 100%;
+    width: 100%; */
     backface-visibility: hidden;
   }
 
@@ -32,13 +32,16 @@
     background-color: rgba(0, 0, 0, 0.951);
     border-radius: 15px;
     box-shadow: white 5px 2px 50px;
+    height: 100%;
+    width: 100%;
 
   }
   .imageLogoContainer{
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
     position: absolute;
     margin-top: 30px;
+
   }
   .back{
     display: flex;
@@ -46,12 +49,11 @@
   }
   .firstBack{
     height: 100%;
-    width: 67.5%;
 
   }
   .secondBack{
     height: 100%;
-    width: 32.5%;
+
   }
 
   .back h2{
@@ -59,12 +61,15 @@
   }
   .visit-card .back {
     transform: perspective(1000px) rotateX(180deg);
-    background-color: #3b3b3b;
     box-sizing: border-box;
     font-size: 1.2rem;
     border-radius: 15px;
     box-shadow: white 5px 2px 50px;
     border: 0.001px rgb(154, 154, 154) solid;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
   .front {
     color: rgb(255, 255, 255);
@@ -73,8 +78,6 @@
     margin: 10px;
   }
   .imageLogoContainer img{
-    height: 100px;
-    width: 175px;
     border-radius: 15px;
     box-shadow: black 5px 5px 30px;
   }
@@ -85,6 +88,7 @@
   height: 100%;
   margin-right: 7.5px;
   margin-left: 17.5px;
+
   box-shadow: goldenrod 5px 5px 50px;
 
 }
@@ -133,16 +137,15 @@
   background: none;
   font-family: Varela Round;
   color: rgb(0, 0, 0);
-  font-size: 20px;
   border: none;
   padding-left: 10px;
+
   text-shadow: 4px 2px 5px rgb(113, 113, 113);
 }
 .emailBut{
   background: none;
   font-family: Varela Round;
   color: rgb(0, 0, 0);
-  font-size: 20px;
   border: none;
   padding-left: 3.5px;
   text-shadow: 4px 2px 5px rgb(113, 113, 113);
@@ -174,5 +177,5 @@
   display: flex;
 }
 .firstBack{
-  padding: 20px;
+  padding: 15px;
 }
