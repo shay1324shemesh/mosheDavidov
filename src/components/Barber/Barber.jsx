@@ -9,7 +9,7 @@ const Barber = () => {
   return (
     <>
     <div className="mainBarberVideo">
-      <video muted="true" autoplay="true" playsinline autoPlay loop >
+      <video playsinline autoPlay muted loop >
         <source src={backgroundVideo} type="video/mp4"/>
       </video>
       <div className="textDivBarber">
