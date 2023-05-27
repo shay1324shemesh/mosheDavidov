@@ -70,7 +70,7 @@ font-size: 30px;
 }
 .barberBackground img{
     border-radius: 55px;
-    width: 450px;
+    width: 90%;
     padding: 20px;
 }
 .barberDescription h1{
@@ -106,6 +106,5 @@ font-size: 30px;
         text-align: center;
         align-items: center;
     }
-    body{
-    }
+
 }
