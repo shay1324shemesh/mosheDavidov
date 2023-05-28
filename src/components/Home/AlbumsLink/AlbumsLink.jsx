@@ -15,7 +15,7 @@ const AlbumsLink = () => {
 
   return (
     <div className="mainExamples" style={{backgroundImage:`url(${barbeLinkBackground})`, backgroundSize:'100% 100%'}}>
-    <h1>
+    <h1 style={{textAlign:'center'}}>
       -
       למעבר צפייה בעבודות לדוגמא לחצו כאן
        - </h1>

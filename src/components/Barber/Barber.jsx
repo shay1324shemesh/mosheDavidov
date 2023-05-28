@@ -20,7 +20,7 @@ const Barber = () => {
     <div className='mainBarber' style={{backgroundImage:`url(${backgroundImageBrown})`,backgroundSize:'100% 100%'}}>
     <div className='moveDiv'>
       <div className='textDiv'>
-        <h1 style={{textAlign:'end',textShadow:'white 5px 2px 5px',textDecoration:'underline'}}>קצת עלינו </h1>
+        <h1 style={{color:'black',textAlign:'end',textShadow:'white 5px 2px 5px',textDecoration:'underline'}}>קצת עלינו </h1>
         <p style={{textAlign:'end',marginTop:'25px',textShadow:'black 5px 2px 5px',color:'white'}}>אצלנו במספרה השירות שתקבלו הוא השירות הטוב ביותר שתוכלו לקבל , מעבר לאווירה החמה כל אחד אצלנו מקבל את מלוא תשומת הלב והזמן שנדרש לתספורת האישית שלו , נשמח לראות אותכם אצלנו בקרוב :)   </p>
       </div>
       <div>

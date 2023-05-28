@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <div className='mainHome'>
     <Barber/>
-    <VisitCardHolder/>
     <PriceList/>
     <AlbumsLink/>
     </div>

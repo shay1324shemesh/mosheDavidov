@@ -48,11 +48,11 @@ function VisitCard({flipped , handleFlip}) {
         }
       </div>
       <div className="back" style={{backgroundImage:`url(${greyBackgroundImage})`,backgroundSize:'100% 100%'}}>
-        <div className="firstBack">
+        <div className="firstBack" style={isDesktop ? {padding:'10px'} : {padding:'15px'}}>
         <VCardCreator/>
         {isDesktop ? <ul>
-          <li style={{marginTop:'15px',display:'flex',justifyContent:'flex-end'}}> <a href="mailto:avraham1962@gmail.com" className="emailLink" style={{fontSize:'15px'}}>john.doe@example.com :</a> <button className="emailBut" style={{fontSize:'15px'}}>אימייל</button></li>
-          <li style={{display:'flex',justifyContent:'flex-end',marginTop:'15px'}}> <a href="tel:+972 52-377-3413" className="phoneLink" style={{fontSize:'15px'}}>(+972) 52-377-3413 :</a> <button className="phoneBut" style={{fontSize:'15px'}}>טלפון</button></li>
+          <li style={{marginTop:'5px',display:'flex',justifyContent:'flex-end'}}> <a href="mailto:avraham1962@gmail.com" className="emailLink" style={{fontSize:'15px'}}>john.doe@example.com :</a> <button className="emailBut" style={{fontSize:'15px'}}>אימייל</button></li>
+          <li style={{display:'flex',justifyContent:'flex-end',marginTop:'10px'}}> <a href="tel:+972 52-377-3413" className="phoneLink" style={{fontSize:'15px'}}>(+972) 52-377-3413 :</a> <button className="phoneBut" style={{fontSize:'15px'}}>טלפון</button></li>
 
         </ul>
                   :<ul>

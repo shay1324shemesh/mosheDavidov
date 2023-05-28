@@ -8,8 +8,10 @@ import instegramIcon from './instegramIcon.png'
 import facebookIcon from './facebookIcon.png'
 import whiteLogo from './whiteCallLogo.png'
 import websiteIcon from './websiteIcon.png'
+import useMediaQuery from '../Header/mediaQuery'
 const Footer = () => {
 
+    const isDesktop = useMediaQuery('max-width:829px')
     const nav = useNavigate();
     var albumBut = () => {
         nav('/choosealbum')
@@ -32,7 +34,7 @@ const Footer = () => {
         window.scrollTo(0,0)
     }
     var itemsBut = () => {
-        nav('/shop')
+        nav('/visitcard')
         window.scrollTo(0,0)
     }
     var sendToSign=()=>{
@@ -56,7 +58,7 @@ const Footer = () => {
     <div className='innerBoxFooter'>
 
     <div className='leftFooter'>
-        <h1 style={{color:'white',marginTop:'100px'}}>|  עקבו אחרינו  | </h1>
+        <h1 style={{color:'white',marginTop:'50px'}}>|  עקבו אחרינו  | </h1>
         <div className='buttnsDivFooter' >
         <div style={{height:'50px',width:'50px' ,margin:'25px',border:'1px goldenrod solid',display:'flex',justifyContent:'center',alignItems:'center'}}>
             <img src={instegramIcon} alt="" style={{height:'75%', width:'75%'}}/>
@@ -84,7 +86,7 @@ const Footer = () => {
             <div className='controladdress'>
             <div className='addressText'>
                 <h3 style={{color:'white'}}>אתר</h3>
-                <p style={{color:'white'}}>www.mdbarbershop.com</p>
+                <p style={{color:'white'}}>www.moshedavidovbarber.hair</p>
             </div>
             <div className='addressFooter'>
                 <div style={{height:'50px',width:'50px',border:'1px goldenrod solid',marginBottom:'10px'}}>
@@ -96,7 +98,7 @@ const Footer = () => {
             <div className='controladdress'>
             <div className='addressText'>
                 <h3 style={{color:'white'}}>טלפון</h3>
-                <p style={{color:'white'}}>0545555555</p>
+                <p style={{color:'white'}}>0523773413</p>
             </div>
             <div className='addressFooter'>
                 <div style={{height:'50px',width:'50px',border:'1px goldenrod solid',display:'flex',justifyContent:'center',alignItems:'center'}}>
@@ -108,11 +110,10 @@ const Footer = () => {
         </div>
 
     <div>
-        <div className='menuFooter'>
+        <div className='menuFooter' style={isDesktop ? {margin:'50px',display:'flex',flexDirection:'column'} : {display:'flex',flexDirection:'column',margin:'0'}}>
             <h1 style={{color:'white',textAlign:'end',marginTop:'50px'}}>| תפריט האתר | </h1>
             <div className='menuFooterButtoms'>
-            <button style={{marginTop:'35px'}}>אודות</button>
-            <button onClick={()=>itemsBut()}>מוצרים</button>
+            <button style={{marginTop:'35px'}} onClick={()=>{itemsBut()}}>כרטיס ביקור</button>
             <button onClick={()=>priceListBut()}>מחירון</button>
             <button onClick={()=>contactBut()}>צור קשר</button>
             <button onClick={()=>albumBut()}>אלבומים</button>

@@ -4,10 +4,6 @@ export const nav = [
       path: "/",
     },
     {
-      text: "מוצרים",
-      path: "/visitcard",
-    },
-    {
       text: "מחירון",
       path: "/services",
     },
@@ -20,8 +16,8 @@ export const nav = [
       path: "/choosealbum",
     },
     {
-      text: "אודות",
-      path: "/barber",
+      text: "כרטיס ביקור",
+      path: "/visitcard",
     },
   ]
   export const featured = [
@@ -316,3 +312,10 @@ export const nav = [
       text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
     },
   ]
+
+
+
+  // {
+  //   text: "מוצרים",
+  //   path: "/visitcard",
+  // },
