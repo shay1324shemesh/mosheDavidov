@@ -27,6 +27,7 @@ const Pages = () => {
       <Route path='/' element={<Home/>}></Route>
       <Route path='/moshedavidovbarber' element={<Home/>}></Route>
       <Route path='/moshedavidovbarber.hair' element={<Home/>}></Route>
+      <Route path='/moshedavidovbarber.hair/visitcard' element={<Home/>}></Route>
       <Route path='/mosheDavidov' element={<Home/>}></Route>
         <Route path='/Real-Estate' element={<Home/>}></Route>
         <Route path='/about' element={<About/>}></Route>
